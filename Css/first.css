@@ -4,7 +4,8 @@ h1{
     background-color: yellow;
 }
 div{
-    border: 4px solid red;
+    border: 2px solid red;
+    height: 75px;
 }
 button{
     color:black;
@@ -13,6 +14,27 @@ button{
     background-color: blue;
 }
 body{
-    background-color: black;
+    /* background-color: black; */
     /* border: 10px solid ; */
+}
+
+button:hover{
+    background-color: lime;
+    color: white;
+}
+button:active{
+    color: pink;
+    background-color: hotpink;
+    border: 4px solid hotpink;
+}
+input[type= "radio"]:checked +label{
+    color: red;
+    font-weight: bolder;
+}
+
+.post:nth-of-type(2n){
+    background-color: lime;
+    border: yellowgreen;
+    border-radius: 20px;
+    text-align:center;
 }

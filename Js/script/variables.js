@@ -8,4 +8,4 @@ let allEmails = inbox1+ inbox2;
 console.log(allEmails)
 
 const hella = "hello I am Admin here"
-console.log(hella);
+console.log(hella)
